@@ -7,6 +7,8 @@ int main()
     p_conta vtrContas[1000];
     int p = 0;
 
+    inicializar(vtrContas,1000);
+
     //montar o menu
     int opcao;
     do{

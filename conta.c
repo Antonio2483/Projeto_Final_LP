@@ -9,3 +9,8 @@ struct Conta{
     float saldo;
 };
 
+void inicializar(p_conta pConta[], int tamanho){
+    for(int i = 0; i < tamanho; i++){
+        pConta[i] = NULL;
+    }
+}
