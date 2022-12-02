@@ -27,7 +27,7 @@ int main()
         scanf("%d", &opcao);
         switch(opcao){
             case 1:
-                //cadastrar(vtrProdutos, p);
+                cadastrar(vtrContas, p);
                 p++;
                 break;
             case 2:
@@ -37,7 +37,7 @@ int main()
                 //comprar(vtrProdutos, p);
                 break;
             case 4:
-                //vender(vtrProdutos, p);
+                listar(vtrContas, p);
                 break;
             case 5:
                 //listarProdutoUnico(vtrProdutos, p);
